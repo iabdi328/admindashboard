@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    font-family: Roboto, Arial;
+  }
+  
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100px 5fr 10fr 2fr;
+  grid-template-rows: 1fr 1fr 8fr 100px;
+    
+  
+   
+  
+    /* Third Layout */
+  grid-template-areas:
+    "s h h h h"
+    "s m m a a"
+    "s m m a a"
+    "s m m a a "
+    ". m m . ."; 
+}
+  
+header {
+  grid-area: h;
+  border: 1px solid white;
+}
+  
+nav {
+  grid-area: nav;
+}
+  
+ 
+  
+.sidebar {
+  grid-area: s;
+  border: 1px solid white;
+  
+}
+
+
+
+.main{
+  grid-area: m;
+}
+
+
+
+aside {
+  padding: 20px;
+  grid-area: a;
+  border: 1px solid white;
+  text-align: left;
+ 
+
+}
+  
+
+.s {
+  padding: 20px;
+  background: rgb(84, 84, 84);
+  text-align: center;
+  color: #fff;
+}

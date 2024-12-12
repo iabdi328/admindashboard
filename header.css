@@ -1,0 +1,105 @@
+.header{
+    background-color: #f8fafc;
+    display: grid;
+    padding-left: 40px;
+
+    grid-template-columns: 50px 9fr 100px 60px 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+/* First Row   */
+
+
+.search_icon{
+    grid-column: 1/2;
+    height: 30px;
+    align-self: center;
+    
+}
+
+
+.searchbar{
+    width: 600px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    grid-column: 2/3;
+}
+
+
+
+.bell_icon{
+    grid-column: 3/4;
+    height: 20px;
+    padding-left: 60px;
+}
+
+.user_pfp{
+    grid-column: 4/5;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.user_name{
+    grid-column: 5/6;
+    font-weight: 900;
+
+}
+
+
+
+/* Second Row   */
+
+.user_pfp2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 60px;
+    border-radius: 30px;
+    
+}
+
+.welcome_message{
+    padding-left: 20px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+.welcome_m_name{
+    margin-left: 20px;
+    margin-top: 40px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+
+
+.header_btn_container{
+    display: flex;
+    justify-content: space-around;
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+
+.header-btn{
+    
+    padding: 5px 20px 5px 20px ;
+    border-radius: 15px;
+    color: #f8fafc;
+    background-color: #020617;
+    font-size: 0.7rem;
+}
+
+
+
+
+
+

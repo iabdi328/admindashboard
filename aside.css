@@ -1,0 +1,28 @@
+aside {
+    background-color: #f8fafc;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, 50px);
+    
+  }
+
+
+.trending_users_tab{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: repeat(auto-fill, 20px);
+
+
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+
+
+}
+
+
+
+.trending_user_pfp{
+    height: 40px;
+    border-radius: 40px;
+}
